@@ -29,7 +29,12 @@ open http://localhost:4200
 # Hack
 - beforeEach('code fore every test', () => {}) //repetitive test 
 # type of locators
-- example <input _ngcontent-bdd-c18="" data-cy="imputEmail1" fullwidth="" id="inputEmail1" nbinput="" placeholder="Email" type="email" ng-reflect-full-width="" class="input-full-width size-medium shape-rectangle">
+- example 
+
+```sh
+<input _ngcontent-bdd-c18="" data-cy="imputEmail1" fullwidth="" id="inputEmail1" nbinput="" placeholder="Email" type="email" ng-reflect-full-width="" class="input-full-width size-medium shape-rectangle">
+```
+
 - use tag e.g input
 - to use id add hash symbol #inputEmail1
 - to use class name add dot .input-full-width

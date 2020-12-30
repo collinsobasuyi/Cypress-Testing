@@ -32,7 +32,16 @@ open http://localhost:4200
 - example 
 
 ```sh
-<input _ngcontent-bdd-c18="" data-cy="imputEmail1" fullwidth="" id="inputEmail1" nbinput="" placeholder="Email" type="email" ng-reflect-full-width="" class="input-full-width size-medium shape-rectangle">
+<input _ngcontent-bdd-c18="" 
+data-cy="imputEmail1" 
+fullwidth="" 
+id="inputEmail1" 
+nbinput="" 
+placeholder="Email" 
+type="email" 
+ng-reflect-full-width="" 
+class="input-full-width size-medium shape-rectangle">
+</input>
 ```
 
 - use tag e.g input

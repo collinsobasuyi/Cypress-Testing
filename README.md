@@ -89,11 +89,37 @@ cy.get('[data-cy="inputEmail]')
 - Example code snippet
 ```sh
 
-<form _ngcontent-kda-c18="" class="form-horizontal"><div _ngcontent-kda-c18="" class="form-group row"><label _ngcontent-kda-c18="" class="label col-sm-3 form-control-label" for="inputEmail3">Email</label><div _ngcontent-kda-c18="" class="col-sm-9"><input _ngcontent-kda-c18="" fullwidth="" id="inputEmail3" nbinput="" placeholder="Email" type="email" ng-reflect-full-width="" class="input-full-width size-medium shape-rectangle"></div></div><div _ngcontent-kda-c18="" class="form-group row"><label _ngcontent-kda-c18="" class="label col-sm-3 form-control-label" for="inputPassword3">Password</label><div _ngcontent-kda-c18="" class="col-sm-9"><input _ngcontent-kda-c18="" fullwidth="" id="inputPassword3" nbinput="" placeholder="Password" type="password" ng-reflect-full-width="" class="input-full-width size-medium shape-rectangle"></div></div><div _ngcontent-kda-c18="" class="form-group row"><div _ngcontent-kda-c18="" class="offset-sm-3 col-sm-9"><div _ngcontent-kda-c18="" class="checkbox"><nb-checkbox _ngcontent-kda-c18="" _nghost-kda-c20=""><label _ngcontent-kda-c20="" class="label"><input _ngcontent-kda-c20="" class="native-input visually-hidden" type="checkbox"><span _ngcontent-kda-c20="" class="custom-checkbox"><!--bindings={
+<form _ngcontent-kda-c18="" 
+class="form-horizontal">
+<div _ngcontent-kda-c18="" class="form-group row">
+<label _ngcontent-kda-c18="" class="label col-sm-3 form-control-label" for="inputEmail3">Email</label>
+<div _ngcontent-kda-c18="" class="col-sm-9">
+
+<input _ngcontent-kda-c18="" fullwidth="" id="inputEmail3" nbinput="" placeholder="Email" type="email" ng-reflect-full-width="" class="input-full-width size-medium shape-rectangle"></div></div>
+
+<div _ngcontent-kda-c18="" class="form-group row">
+
+<label _ngcontent-kda-c18="" class="label col-sm-3 form-control-label" for="inputPassword3">Password</label>
+
+<div _ngcontent-kda-c18="" class="col-sm-9"><input _ngcontent-kda-c18="" fullwidth="" id="inputPassword3" nbinput="" placeholder="Password" type="password" ng-reflect-full-width="" class="input-full-width size-medium shape-rectangle"></div></div><div _ngcontent-kda-c18="" class="form-group row">
+
+<div _ngcontent-kda-c18="" class="offset-sm-3 col-sm-9">
+
+<div _ngcontent-kda-c18="" class="checkbox"><nb-checkbox _ngcontent-kda-c18="" _nghost-kda-c20=""><label _ngcontent-kda-c20="" class="label"><input _ngcontent-kda-c20="" class="native-input visually-hidden" type="checkbox">
+
+<span _ngcontent-kda-c20="" class="custom-checkbox"><!--bindings={
   "ng-reflect-ng-if": "false"
 }--><!--bindings={
   "ng-reflect-ng-if": "false"
-}--></span><span _ngcontent-kda-c20="" class="text">Remember me</span></label></nb-checkbox></div></div></div><div _ngcontent-kda-c18="" class="form-group row"><div _ngcontent-kda-c18="" class="offset-sm-3 col-sm-9"><button _ngcontent-kda-c18="" nbbutton="" status="warning" type="submit" _nghost-kda-c16="" ng-reflect-status="warning" class="appearance-filled size-medium status-warning shape-rectangle transitions" aria-disabled="false" tabindex="0">Sign in</button></div></div>
+}--></span>
+
+<span _ngcontent-kda-c20="" class="text">Remember me</span></label></nb-checkbox></div></div></div><div _ngcontent-kda-c18="" class="form-group row">
+
+<div _ngcontent-kda-c18="" class="offset-sm-3 col-sm-9">
+
+<button _ngcontent-kda-c18="" nbbutton="" status="warning" type="submit" _nghost-kda-c16="" ng-reflect-status="warning" class="appearance-filled size-medium status-warning shape-rectangle transitions" aria-disabled="false" tabindex="0">Sign in</button>
+
+</div></div>
 </form>
 
 
